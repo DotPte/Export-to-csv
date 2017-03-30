@@ -28,6 +28,7 @@
   }
 ?>
 
+// remove these 2 lines when deploying
 // this is just HTML code that adds export button to the site, you can get rid of it if you feel like you dont need it
 
 <div>
