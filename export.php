@@ -16,7 +16,6 @@
 // this specifies rows you want to include to the csv
 // after "SELECT you name columns you want and after FROM table you want to export
 // if you want to export all columns use SELECT *
-// if you want to export all tables use FROM * (i thinks it works? if it doesn`t work it exports empty csv with first row specified in line 11)
     
     $rows = mysqli_query($con, "SELECT search engine, useful, why FROM search engines ");
 
