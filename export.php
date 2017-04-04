@@ -8,7 +8,8 @@
     $output = fopen('php://output', 'w');
 
 // this is where you name first row of the csv see readme.md
-  fputcsv($output, array('Search engine', 'Why', 'Useful'));
+   fputcsv($output, array('sep=;'));
+   fputcsv($output, array('Search engine', 'Why', 'Useful'));
 	
 // connecting to server exsamble ('localhost', 'User', 'mypassword', 'DefaultDataBase');
     $con = mysqli_connect('Server', 'Username', 'Password', 'database');
