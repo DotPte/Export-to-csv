@@ -1,4 +1,4 @@
-<?php if (isset($_POST['exp'])) {
+<?php if (isset($_POST)) {
 
     header('Content-Type: text/csv; charset=utf-8');
     
@@ -29,11 +29,3 @@
   }
 ?>
 
-// remove these 2 lines when deploying
-// this is just HTML code that adds export button to the site, you can get rid of it if you feel like you dont need it
-
-<div>
-  <form action="#" method="post">
-    <input type="submit" value="Export" name="exp" />
-  </form>
-</div>
